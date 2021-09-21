@@ -1,0 +1,29 @@
+{
+    "name": "insane/forceml",
+    "description": "work with commerceml files",
+    "authors": [
+        {
+            "name": "quasar",
+            "email": "forgemechanics@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": ">=7.0",
+        "sabre/xml": "2.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ForceML\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Tests\\Helpers\\": "tests/helpers"
+        }
+    }
+}
