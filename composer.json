@@ -7,7 +7,6 @@
             "email": "moais611@gmail.com"
         }
     ],
-    "minimum-stability": "beta",
     "require": {
         "php": ">=7.0",
         "sabre/xml": "2.1.0"
